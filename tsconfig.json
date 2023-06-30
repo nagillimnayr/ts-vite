@@ -13,7 +13,8 @@
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "noFallthroughCasesInSwitch": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "sourceMap": true
     },
     "ts-node": { "esm": true }
 }
