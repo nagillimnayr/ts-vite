@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "types": ["vite/client"],
         "outDir": "./dist/",
         "module": "ES2022",
         "target": "es6",
@@ -16,5 +17,6 @@
         "resolveJsonModule": true,
         "sourceMap": true
     },
+    "include": ["src"],
     "ts-node": { "esm": true }
 }
